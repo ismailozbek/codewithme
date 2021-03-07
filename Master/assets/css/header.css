@@ -1,28 +1,11 @@
-.header__group {
+.header__inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-.header__group__nav {
-  display: flex;
-  align-items: center;
-}
-.header__group__nav__item {
-  margin: 0 20px;
-  height: 40px;
-  width: 40px;
-  background: black;
-}
-.header__group__nav__test {
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-.header__group__nav__test__input {
-  position: absolute;
-}
-.header__group__nav__test__label {
-  position: absolute;
+  height: 74px;
+  margin: 0px 104.5px;
+  font-size: 16px;
+  color: #272b2e;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*# sourceMappingURL=header.css.map */
