@@ -1,0 +1,38 @@
+.header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #F5F5F5;
+  padding: 0 150px;
+  box-sizing: border-box;
+  position: relative;
+}
+.header__logo {
+  width: 70px;
+  height: 40.35px;
+  background-image: url(../i/Logo.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header__rightregion {
+  display: flex;
+  align-items: center;
+}
+.header__rightregion__search {
+  margin-right: 40px;
+}
+.header__rightregion__icons {
+  display: flex;
+  align-items: center;
+}
+.header__rightregion__icons__link {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=header.css.map */

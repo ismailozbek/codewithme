@@ -1,2 +1,0 @@
-# freeCodeWithMe
-Code with me.

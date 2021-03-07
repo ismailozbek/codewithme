@@ -1,0 +1,32 @@
+@import variables
+
+.header
+  height: 70px
+  display: flex
+  align-items: center
+  justify-content: space-between
+  background: $ghost-white
+  padding: 0 150px
+  box-sizing: border-box
+  position: relative
+  &__logo
+    width: 70px
+    height: 40.35px
+    background-image: url(../i/Logo.svg)
+    background-size: cover
+    background-repeat: no-repeat
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+  &__rightregion
+    display: flex
+    align-items: center
+    &__search
+      margin-right: 40px
+    &__icons
+      display: flex
+      align-items: center
+      &__link
+        margin-left: 30px
+        cursor: pointer

@@ -1,0 +1,12 @@
+.nav {
+  display: flex;
+}
+.nav__item {
+  box-sizing: border-box;
+  margin-right: 60px;
+}
+.nav__item:last-child {
+  margin-right: 0;
+}
+
+/*# sourceMappingURL=nav.css.map */

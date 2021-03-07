@@ -1,0 +1,15 @@
+.accordion__item {
+  display: flex;
+  align-items: center;
+}
+.accordion__item__label {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.accordion__input {
+  display: block;
+}
+
+/*# sourceMappingURL=accordion.css.map */
