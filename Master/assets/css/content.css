@@ -1,0 +1,30 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.content__left {
+  background-image: url(http://images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/34512986a5d95a56830718a9/pexels-photo-1969979.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 720px;
+  color: #fff;
+}
+.content__left__title {
+  font-size: 60px;
+  font-weight: 700;
+}
+.content__left__description {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.content__right {
+  background-image: url(http://images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/34512986a5d95a56830718a9/pexels-photo-1969979.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 720px;
+}
+
+/*# sourceMappingURL=content.css.map */
