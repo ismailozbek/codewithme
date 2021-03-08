@@ -2,7 +2,6 @@
 
 .content
   &__upper
-    
     &__left
       margin-top: 228px
       &__name
@@ -16,15 +15,30 @@
       width: 243px
       height: 243px
       background-image: url(../i/Ellipse.svg)
+      background-size: cover
+      background-repeat: no-repeat
 
 
   &__middle
-    padding-left: 20px
-    padding-right: 20px
-    margin-top: 71px
+    padding: 20px
+    margin-top: 50px
     background-color: $white_2
+  &__lower
+    padding: 20px
+    &__item
+      display: flex
+      &__picture
+        width: 246px
+        height: 180px
+        background-image: url(../i/Rectangle_30.svg)
+        background-size: cover
+        background-repeat: repeat
+
+
+
 
 .card
+  margin-top: 20px
   padding: 20px 20px
   background-color: $white
   &__name
