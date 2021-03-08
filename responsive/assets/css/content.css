@@ -1,10 +1,14 @@
-.content {
+.content__upper__left {
   margin-top: 228px;
 }
-.content__upper__left {
+.content__upper__left__description {
+  margin-right: 115px;
+}
+.content__upper__left__button {
   margin-top: 50px;
 }
 .content__upper__right {
+  margin-top: 228px;
   width: 243px;
   height: 243px;
   background-image: url(../i/Ellipse.svg);
