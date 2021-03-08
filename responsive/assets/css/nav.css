@@ -1,14 +1,12 @@
 .nav {
+  display: block;
   float: right;
-  margin-top: 27px;
 }
-.nav__item {
-  margin-right: 30px;
-  font-weight: 500;
-  font-size: 20px;
-  text-decoration: none;
-  color: #000000;
-  box-sizing: border-box;
+.nav__link {
+  margin-left: 33px;
+}
+.nav__link:first-child {
+  margin-left: 0;
 }
 
 /*# sourceMappingURL=nav.css.map */
