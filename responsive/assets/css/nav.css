@@ -1,12 +1,15 @@
 .nav {
-  display: flex;
-}
-.nav__item {
-  box-sizing: border-box;
+  float: right;
+  margin-top: 27px;
   margin-right: 60px;
 }
-.nav__item:last-child {
-  margin-right: 0;
+.nav__item {
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=nav.css.map */
