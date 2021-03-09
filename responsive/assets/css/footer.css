@@ -1,23 +1,52 @@
 .footer {
-  padding: 51px 0;
+  overflow: hidden;
+  display: flex;
+  margin-top: 100px;
+  background-color: #F2F2F2;
+}
+.footer__leftregion {
+  margin-left: 84.5px;
+  padding-left: 15px;
   box-sizing: border-box;
-  text-align: center;
+  margin-top: 40px;
 }
-.footer__logos__icons {
-  margin-right: 35px;
+.footer__leftregion__title {
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
 }
-.footer__logos__icons:hover {
-  filter: drop-shadow(1px 1px 3px #00A8CC);
+.footer__leftregion__subtitle {
+  margin-top: 60px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  margin-bottom: 70px;
 }
-.footer__logos__icons:last-child {
-  margin-right: 0;
+.footer__rightregion {
+  overflow: hidden;
 }
-.footer__copyright {
-  margin-top: 26px;
-  font-size: 14px;
+
+.footer__lower {
+  background-color: #333333;
+}
+.footer__lower__inner {
+  display: flex;
+  background-color: #333333;
+}
+.footer__lower__inner__title {
+  margin-top: 41px;
+  margin-bottom: 41px;
+  font-size: 16px;
   font-weight: 400;
-  color: #21243D;
-  line-height: 20.5px;
+  line-height: 22.14px;
+  color: #F5F5F5;
+  opacity: 0.4;
+}
+.footer__lower__inner__logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=footer.css.map */

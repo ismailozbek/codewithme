@@ -1,20 +1,46 @@
 @import variables
 
 .footer
-  padding: 51px 0
-  box-sizing: border-box
-  text-align: center
-  &__logos
-    &__icons
-      margin-right: 35px
-      &:hover
-        filter: drop-shadow(1px 1px 3px $secondary)            
-      &:last-child
-        margin-right: 0
-      
-  &__copyright
-    margin-top: 26px
-    font-size: 14px
-    font-weight: 400
-    color: $dark
-    line-height: 20.5px
+  overflow: hidden
+  display: flex
+  margin-top: 100px
+  background-color: $soft
+  &__leftregion
+    margin-left: 84.500px
+    padding-left: 15px
+    box-sizing: border-box
+    margin-top: 40px
+    &__logo
+    &__title
+      margin-top: 50px
+      font-size: 16px
+      font-weight: 500
+      line-height: 19.5px
+    &__subtitle
+      margin-top: 60px
+      font-size: 16px
+      font-weight: 500
+      line-height: 19.5px
+      margin-bottom: 70px
+  &__rightregion
+    overflow: hidden
+
+  
+.footer__lower
+  background-color: $dark
+  
+  &__inner
+    display: flex
+    background-color: $dark
+    &__title
+      margin-top: 41px
+      margin-bottom: 41px
+      font-size: 16px
+      font-weight: 400
+      line-height: 22.14px
+      color: $white
+      opacity: 0.4
+    &__logos
+      display: flex
+      justify-content: center
+      align-items: center

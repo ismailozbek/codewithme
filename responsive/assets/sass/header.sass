@@ -1,27 +1,79 @@
 @import variables
 
 .header
-  padding-top: 25px
-  padding-bottom: 71px
-  box-sizing: border-box
+  background-color: $white
+  margin: 0
+  padding: 0
   &__content
-    margin-top: 142px
+    position: relative
+    overflow: hidden
+    box-sizing: border-box
+    color: $white
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    
     &__title
-      font-size: 44px
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%,-50%)
+      font-size: 22px
       font-weight: 700
-      color: $black
-      margin-bottom: 40px
-    &__description  
+      line-height: 87.77px
+    &__subtitle
+      margin-top: 100px
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%,-50%)
+      font-size: 17px
+      font-weight: 500
+      line-height: 29.26px
+    &__button
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%,-50%)
+      margin-top: 200px
+      padding: 24px 56px
+      box-sizing: border-box
+      border-radius: 4px
+      background-color: $primary
+      &__link
+        text-decoration: none
+        color: $white
+
+
+
+.nav
+  box-sizing: border-box
+  display: flex
+  justify-content: space-between
+  align-items: center
+  &__logo
+    margin: 15px 0
+    width: 163px
+    height: 66px
+    box-sizing: border-box
+    background-image: url(../i/logo.svg)
+    background-size: cover
+    background-repeat: no-repeat
+  &__bar
+    float: right
+    display: flex
+    justify-content: center
+    align-items: center   
+    &__items
+      text-decoration: none
+      color: $gray
       font-size: 16px
-      font-weight: 400
-      color: $dark
-      line-height: 23.5px
-      margin-bottom: 38px
-    &__picture
-      width: 243px
-      height: 243px
-      background-image: url(../i/me.svg)
-      background-size: cover
-      background-repeat: no-repeat
-      border-radius: 999px
-      float: right
+      line-height: 19.5px
+      padding: 38px 24px
+      transition: all .8s ease
+      &:hover
+        color: $white
+        background-color: $primary
+        
+

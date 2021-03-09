@@ -12,7 +12,7 @@
 .feature__card {
   padding: 15px 0;
   box-sizing: border-box;
-  border-bottom: 0.5px solid #E0E0E0;
+  border-bottom: 0.5px solid #616162;
 }
 .feature__card__picture {
   width: 246px;
@@ -38,7 +38,7 @@
   font-size: 30px;
   font-weight: 700;
   line-height: 44px;
-  color: #21243D;
+  color: #333333;
   margin-bottom: 20px;
   cursor: pointer;
 }
@@ -51,7 +51,7 @@
   padding: 0 10px;
   box-sizing: border-box;
   background: #142850;
-  color: #ffffff;
+  color: #F5F5F5;
   border-radius: 999px;
   font-size: 18px;
   font-weight: 900;
@@ -60,14 +60,14 @@
 .feature__card__content__subtitle__label {
   font-size: 20px;
   font-weight: 400;
-  color: #8695A4;
+  color: #C4C4C4;
   line-height: 29px;
 }
 .feature__card__content__description {
   font-size: 16px;
   font-weight: 400;
   line-height: 23.5px;
-  color: #21243D;
+  color: #333333;
 }
 
 /*# sourceMappingURL=feauture.css.map */
